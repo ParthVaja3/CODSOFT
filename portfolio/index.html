@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    <title>Document</title>
+</head>
+
+<body>
+    <a class="smoothScroll" href="#welcome"><img id="btt" class="img-responsive"
+            src="http://allfordance.com/image/orbital-arrow-up.png"></a>
+
+    <div id="myNav" class="overlay">
+
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+
+        <div class="overlay-content">
+            <a class="smoothScroll" href="#welcome" onclick="closeNav()">Home</a>
+            <a class="smoothScroll" href="#about" onclick="closeNav()">About</a>
+            <a class="smoothScroll" href="#portfolio" onclick="closeNav()">Portfolio</a>
+        </div>
+
+    </div>
+
+    <span id="openmenu" onclick="openNav()"><b>Menu</b></span>
+
+    <center>
+        <div id="welcome">
+            <h1>Parth Vaja</h1>
+            <h3><b>Web Developer</b></h3>
+            <a class="smoothScroll" href="#about"><img id="press"
+                    src="photos/arrow.png"> </a>
+        </div>
+    </center>
+
+    <div id="about">
+        <h1>About Me</h1>
+        <center>
+            <div id="self">
+                <img class="img-responsive"
+                    src="photos/parth.png">
+            </div>
+        </center>
+        <br>
+        <p>Hi! I’m <B>PARTH VAJA</B>, the coding wizard, turning ideas into digital magic with my computer skills.<br>Hello, I am currently pursuing
+            degree in computer engineering at marwadi University, Gujarat. passionate about learn a technical work
+            with team as a frontend and backend developer. and some new activity.
+            <br><br>If you'd like, scroll down to see some examples of my work!<br><br>Want to work together? I’d love
+            to hear from you!
+            <br><br>
+            <b>SKILLS:---</b>
+            <ul>
+                <li>programming skills</li>
+                <li>problem solving</li>
+                <li>communication </li>
+                <li>Networking </li>
+            </ul>
+        </p>
+        <br><br>
+        <span id="email">
+            <img src="photos/mail.jpg"> Parth.vaja.03@gmail.com</span>
+        <span id="portScroll">
+            <a class="smoothScroll" href="#portfolio"><img src="http://www.meegankent.com/images/portfolio-icon2.png">
+                View My Portfolio</a></span>
+    </div>
+
+    <div id="portfolio">
+        <h1>Portfolio</h1>
+        <h3>Here you'll see some projects photos I've worked on it!</h3>
+        <br>
+        <center>
+            <div id="port" class="container">
+                <table>
+                    <tr>
+                        <a target="_blank"><img
+                                class="img-responsive thumbnail"
+                                src="photos/clock style.png"></a>
+                    </tr>
+                    <tr>
+                        <a target="_blank"><img
+                                class="img-responsive thumbnail"
+                                src="photos/to do list.png"></a>
+                    </tr>
+                    <tr>
+                        <a target="_blank"><img
+                                class="img-responsive thumbnail"
+                                src="photos/commerce.png"></a>
+                    </tr>
+                </table>
+            </div>
+        </center>
+    </div>
+</body>
+
+</html>
